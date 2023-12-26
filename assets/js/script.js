@@ -404,3 +404,25 @@ document.addEventListener('DOMContentLoaded', async function () {
     wordleSolution = await getWordleSolution();
 });
 
+// stop keyboard shortcuts
+window.addEventListener("keydown", (event) => {
+    if (event.ctrlKey && (event.key === "I" || event.key === "i")) {
+        event.preventDefault();
+    }
+    if (event.ctrlKey && (event.key === "U" || event.key === "u")) {
+        event.preventDefault();
+    }
+    if (event.ctrlKey && (event.key === "P" || event.key === "p")) {
+        event.preventDefault();
+    }
+    if ((event.key === 'F12')) {
+        event.preventDefault();
+    }
+    if ((event.key === 'F11')) {
+        event.preventDefault()
+    }
+});
+// stop right click
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
