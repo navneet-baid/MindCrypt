@@ -1,0 +1,159 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.card-text {
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.bg-danger {
+    background-color: #f95644 !important;
+}
+
+.bg-success {
+    background-color: #35cd49 !important;
+}
+
+#success-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+.captcha {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 5px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#congratulatory-card {
+    display: block;
+    margin-top: 20px;
+}
+
+#congratulatory-card .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #2ecc71;
+    /* Green background color */
+    color: #ecf0f1;
+    /* White text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#congratulatory-card .card-body {
+    padding: 20px;
+}
+
+#congratulatory-card h5.card-title {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#congratulatory-card p.card-text {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#congratulatory-card .cracked-password {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#congratulatory-card .share-button {
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    /* Red button color */
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+#congratulatory-card .share-button:hover {
+    background-color: #c0392b;
+    /* Darker red on hover */
+}
+
+
+#rule-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#refresh-icon {
+    cursor: pointer;
+    color: #25303b;
+}
+/* Custom Darker Modal Styles */
+
+/* Darker background for the modal */
+.modal-content {
+    background-color: #333;
+    /* Adjust the color as needed */
+    color: #fff;
+    /* Text color */
+}
+
+/* Darker background for the modal header */
+.modal-header {
+    background-color: #222;
+    /* Adjust the color as needed */
+    border-bottom: 1px solid #444;
+    /* Border color */
+}
+
+/* Darker background for the modal body */
+.modal-body {
+    background-color: #333;
+    /* Adjust the color as needed */
+}
+
+/* Darker background for the modal footer */
+.modal-footer {
+    background-color: #222;
+    /* Adjust the color as needed */
+    border-top: 1px solid #444;
+    /* Border color */
+}
+
+/* Custom style for the close button */
+.close {
+    color: #fff;
+    /* Text color */
+}

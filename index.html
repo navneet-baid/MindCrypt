@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Embark on the MindCrypt Challenge - a thrilling password game that tests your wits! Crack the code through multiple levels of creative rules and secure your spot as a master cryptographer. Play now!">
+    <meta name="keywords"
+        content="password game, MindCrypt Challenge, cryptography, puzzle game, secure password, interactive challenge">
+    <meta name="author"
+        content="Navneet Baid">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="favicon.ico"
+        type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap and Font Awesome styles -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet"
+        href="./assets/css/style.css">
+
+    <title>MindCrypt Challenge - Crack the Code!</title>
+
+</head>
+
+<body>
+    <div id="gameSection"
+        style="display: none;">
+        <div class="container">
+            <h2 id="level-display">Enter a password</h2>
+            <div class="form-group">
+                <input type="text"
+                    class="form-control"
+                    id="password-input"
+                    placeholder="Enter your password">
+            </div>
+            <div class="row d-block mx-auto"
+                id="rule-list"></div>
+            <div id="success-message"
+                class="mt-3"></div>
+            <div id="congratulatory-card">
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Instructions -->
+    <div class="modal"
+        id="instructionsModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">MindCrypt Challenge Instructions</h4>
+
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <p>Welcome to the MindCrypt Challenge! This exciting password game will test your puzzle-solving
+                        skills
+                        through various creative rules and levels.</p>
+                    <p>Follow the instructions for each level and crack the code to advance. Are you ready for the
+                        challenge?</p>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button"
+                        class="btn btn-primary"
+                        data-dismiss="modal"
+                        onclick="startGame()">Continue</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Developed by <a class="text-light"
+                    href="https://navneetbaid.000webhostapp.com"
+                    target="_blank">Navneet Baid</a> &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
