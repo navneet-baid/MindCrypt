@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head><!-- Google tag (gtag.js) -->
+<script async
+    src="https://www.googletagmanager.com/gtag/js?id=G-PVSE2X0PE6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-PVSE2X0PE6');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Embark on the MindCrypt Challenge - a thrilling password game that tests your wits! Crack the code through multiple levels of creative rules and secure your spot as a master cryptographer. Play now!">
+        content="Embark on the MindCrypt Challenge - a thrilling game that tests your wits! Crack the code through multiple levels of creative rules and secure your spot as a master cryptographer. Play now!">
     <meta name="keywords"
         content="password game, MindCrypt Challenge, cryptography, puzzle game, secure password, interactive challenge">
     <meta name="author"
@@ -37,12 +46,12 @@
     <div id="gameSection"
         style="display: none;">
         <div class="container">
-            <h2 id="level-display">Enter a password</h2>
+            <h2 id="level-display">Enter a String</h2>
             <div class="form-group">
                 <input type="text"
                     class="form-control"
                     id="password-input"
-                    placeholder="Enter your password">
+                    placeholder="type here...">
             </div>
             <div class="row d-block mx-auto"
                 id="rule-list"></div>
@@ -67,9 +76,9 @@
 
                 <!-- Modal Body -->
                 <div class="modal-body">
-                    <p>Welcome to the MindCrypt Challenge! This exciting password game will test your puzzle-solving
+                    <p>Welcome to the MindCrypt Challenge! This exciting game will test your puzzle-solving
                         skills
-                        through various creative rules and levels.</p>
+                        through various creative rules.</p>
                     <p>Follow the instructions for each level and crack the code to advance. Are you ready for the
                         challenge?</p>
                 </div>
